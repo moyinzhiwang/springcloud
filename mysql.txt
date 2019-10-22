@@ -1,9 +1,0 @@
-USE test
-
-CREATE TABLE Address(
-	id BIGINT PRIMARY KEY AUTO_INCREMENT,
-	content VARCHAR(255) NOT NULL 
-);
-
-
-INSERT INTO Address(content) VALUE('中国共和国人民'),('中国深圳市'),('广东省深圳市'),('中国海洋'),('中国大陆'),('中国广东省深圳市罗湖区南山区'),('中国深圳市龙岗区'),('中国首都北京市'),('中国云南省');
